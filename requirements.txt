@@ -1,0 +1,33 @@
+# Core deep learning framework
+tensorflow>=2.8.0,<2.16.0
+
+# Medical imaging libraries
+nibabel>=3.2.0
+
+# Image processing and computer vision
+opencv-python>=4.5.0
+scikit-image>=0.19.0
+
+# Scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+pandas>=1.3.0
+
+# Machine learning utilities
+scikit-learn>=1.0.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Progress and utilities
+tqdm>=4.62.0
+
+# Development and analysis
+ipython>=7.0.0
+
+# File handling
+pathlib2>=2.3.0; python_version<"3.4"
+
+# Configuration and data serialization
+pyyaml>=6.0
