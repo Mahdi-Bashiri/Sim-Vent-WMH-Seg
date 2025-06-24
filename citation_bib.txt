@@ -1,0 +1,30 @@
+@article{bashiri2024simultaneous,
+    title={Simultaneous Segmentation of Ventricles and Normal/Abnormal White Matter Hyperintensities in Clinical MRI using Deep Learning},
+    author={Bashiri, Mahdi and [Co-authors]},
+    journal={[Journal Name]},
+    volume={[Volume]},
+    number={[Number]},
+    pages={[Pages]},
+    year={2024},
+    publisher={[Publisher]},
+    doi={[DOI]},
+    url={https://github.com/Mahdi-Bashiri/Sim-Vent-WMH-Seg},
+    note={GitHub repository}
+}
+
+@software{bashiri2024simventwmhseg,
+    title={Sim-Vent-WMH-Seg: Simultaneous Brain Ventricle and White Matter Hyperintensity Segmentation},
+    author={Bashiri, Mahdi and [Co-authors]},
+    year={2024},
+    url={https://github.com/Mahdi-Bashiri/Sim-Vent-WMH-Seg},
+    version={1.0.0}
+}
+
+% Alternative citation format for software/code
+@misc{bashiri2024github,
+    title={Simultaneous Segmentation of Brain Ventricles and White Matter Hyperintensities},
+    author={Bashiri, Mahdi and [Co-authors]},
+    year={2024},
+    howpublished={\url{https://github.com/Mahdi-Bashiri/Sim-Vent-WMH-Seg}},
+    note={Accessed: [Date]}
+}
