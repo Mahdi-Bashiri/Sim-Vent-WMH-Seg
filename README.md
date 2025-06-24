@@ -89,11 +89,9 @@ result = predict.segment_simultaneous(preprocessed_image)
 │   └── 📁 Atlas_Matching/           # Template-based approach
 ├── 📁 examples/                     # Tutorials and demos
 │   ├── 📄 quickstart_tutorial.ipynb
-│   ├── 📄 clinical_workflow.ipynb
 │   └── 📄 baseline_comparison.ipynb
 ├── 📁 results/                      # Performance data and figures
 ├── 📁 docs/                         # Documentation
-├── 📁 clinical_tools/               # Hospital integration tools
 └── 📁 tests/                        # Unit tests
 ```
 
