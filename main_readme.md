@@ -195,13 +195,14 @@ flake8 src/
 If you use this work in your research, please cite:
 
 ```bibtex
-@article{your_article_2024,
-    title={Simultaneous Segmentation of Ventricles and Normal/Abnormal White Matter Hyperintensities in Clinical MRI using Deep Learning},
-    author={[Your Name] and [Co-authors]},
-    journal={[Journal Name]},
-    year={2024},
-    doi={[DOI]},
-    url={https://github.com/Mahdi-Bashiri/Sim-Vent-WMH-Seg}
+@article{Bawil_2025,
+      title={Simultaneous Segmentation of Ventricles and Normal/Abnormal White Matter Hyperintensities in Clinical MRI using Deep Learning}, 
+      author={Mahdi Bashiri Bawil and Mousa Shamsi and Abolhassan Shakeri Bavil},
+      year={2025},
+      eprint={2506.07123},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2506.07123}, 
 }
 ```
 
