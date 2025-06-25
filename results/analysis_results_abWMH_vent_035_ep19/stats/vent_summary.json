@@ -1,0 +1,38 @@
+{
+  "Atlas Matching": {
+    "mean_dice": 0.7415807287229275,
+    "std_dice": 0.06198846609459106,
+    "mean_jaccard": 0.5930573352678309,
+    "std_jaccard": 0.07649935669499959,
+    "mean_precision": 0.7303324844383003,
+    "std_precision": 0.10836167972140627,
+    "mean_recall": 0.7658079037120962,
+    "std_recall": 0.04416596438437237,
+    "mean_hausdorff95": 22.50877494162105,
+    "std_hausdorff95": 5.725321006498427
+  },
+  "SynthSeg": {
+    "mean_dice": 0.7506476671792633,
+    "std_dice": 0.09789241079994479,
+    "mean_jaccard": 0.6091154988049479,
+    "std_jaccard": 0.1058748696885728,
+    "mean_precision": 0.8351227947849539,
+    "std_precision": 0.0358437964567432,
+    "mean_recall": 0.6980250710934325,
+    "std_recall": 0.1303418900951373,
+    "mean_hausdorff95": 19.07015689367966,
+    "std_hausdorff95": 9.768872301880197
+  },
+  "Our Method  ": {
+    "mean_dice": 0.8013803650733922,
+    "std_dice": 0.02503104269821838,
+    "mean_jaccard": 0.6693215418178818,
+    "std_jaccard": 0.03522532013911149,
+    "mean_precision": 0.7359937448247517,
+    "std_precision": 0.050455791741425914,
+    "mean_recall": 0.8836813367833803,
+    "std_recall": 0.0325319384607864,
+    "mean_hausdorff95": 18.466333800119806,
+    "std_hausdorff95": 7.099913096831036
+  }
+}

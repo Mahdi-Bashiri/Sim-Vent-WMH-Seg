@@ -1,0 +1,62 @@
+{
+  "BIANCA": {
+    "mean_dice": 0.2681135876497436,
+    "std_dice": 0.09011187685887509,
+    "mean_jaccard": 0.1580247664464554,
+    "std_jaccard": 0.06184170761835448,
+    "mean_precision": 0.4736552369221595,
+    "std_precision": 0.20850898394080503,
+    "mean_recall": 0.21081005527714516,
+    "std_recall": 0.09685908538494536,
+    "mean_hausdorff95": 32.38764422672078,
+    "std_hausdorff95": 11.534502652622681
+  },
+  "LGA": {
+    "mean_dice": 0.15640007068254022,
+    "std_dice": 0.07793571357402784,
+    "mean_jaccard": 0.08680556488191513,
+    "std_jaccard": 0.04673690501699122,
+    "mean_precision": 0.6601277515549443,
+    "std_precision": 0.2550549040221439,
+    "mean_recall": 0.09157465148861173,
+    "std_recall": 0.05122036739664748,
+    "mean_hausdorff95": 46.39270804695184,
+    "std_hausdorff95": 18.440733176050497
+  },
+  "LPA": {
+    "mean_dice": 0.5089515352932292,
+    "std_dice": 0.09326631451417314,
+    "mean_jaccard": 0.3464574040672559,
+    "std_jaccard": 0.08196045220129378,
+    "mean_precision": 0.4972940769512076,
+    "std_precision": 0.13076137319108577,
+    "mean_recall": 0.5560018636397759,
+    "std_recall": 0.10837540818303501,
+    "mean_hausdorff95": 25.166020586908658,
+    "std_hausdorff95": 12.435600420538185
+  },
+  "WMH SynthSeg": {
+    "mean_dice": 0.3761927256666357,
+    "std_dice": 0.1135711190451896,
+    "mean_jaccard": 0.23759809013479455,
+    "std_jaccard": 0.08484492368680897,
+    "mean_precision": 0.37425363140527146,
+    "std_precision": 0.18098606058728808,
+    "mean_recall": 0.4452560529770785,
+    "std_recall": 0.09864323667912135,
+    "mean_hausdorff95": 29.503775436087032,
+    "std_hausdorff95": 9.826290501351316
+  },
+  "Our Method": {
+    "mean_dice": 0.6241158638824854,
+    "std_dice": 0.06066968870069837,
+    "mean_jaccard": 0.45644553614210037,
+    "std_jaccard": 0.06436415144576742,
+    "mean_precision": 0.7549484889171622,
+    "std_precision": 0.15124514779996617,
+    "mean_recall": 0.5577033108150948,
+    "std_recall": 0.09082910067051812,
+    "mean_hausdorff95": 23.00156837580335,
+    "std_hausdorff95": 10.061503478767133
+  }
+}
