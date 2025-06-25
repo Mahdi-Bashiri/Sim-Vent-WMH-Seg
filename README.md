@@ -160,7 +160,6 @@ We compared our method against 6 state-of-the-art approaches:
 - **[Installation Guide](docs/INSTALLATION.md)**: Detailed setup instructions
 - **[Usage Tutorial](docs/USAGE.md)**: Step-by-step usage guide
 - **[Clinical Guide](docs/CLINICAL_GUIDE.md)**: Clinical interpretation and validation
-- **[API Documentation](docs/API.md)**: Complete API reference
 - **[Troubleshooting](docs/TROUBLESHOOTING.md)**: Common issues and solutions
 
 ---
