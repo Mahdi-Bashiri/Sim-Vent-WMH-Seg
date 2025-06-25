@@ -55,14 +55,14 @@ pip install -r requirements.txt
 ### Basic Usage
 
 ```python
-from src.inference import predict
+from src.models import inferring
 from src.preprocessing import preprocess_flair
 
 # Preprocess FLAIR image
-preprocessed_image = preprocess_flair("path/to/flair.nii.gz")
+preprocessed_image, brain_mask_info = preprocess_flair.main("path/to/flair.nii.gz", "path/to/save")
 
 # Run segmentation
-result = predict.segment_simultaneous(preprocessed_image)
+result = inferring.main(preprocessed_image, brain_mask_info, "path/to/pre-trained-model", "path/to/save")
 
 # Results contain:
 # - Ventricle segmentation
@@ -87,9 +87,6 @@ result = predict.segment_simultaneous(preprocessed_image)
 │   ├── 📁 LST_methods/              # LST-LPA and LST-LGA
 │   ├── 📁 Atlas_Matching/           # Template-based approach
 │   └── 📁 raw_data/                 # Sample raw data from the cohort
-├── 📁 examples/                     # Tutorials and demos
-│   ├── 📄 quickstart_tutorial.ipynb
-│   └── 📄 baseline_comparison.ipynb
 ├── 📁 results/                      # Performance data and figures
 ├── 📁 docs/                         # Documentation
 └── 📁 tests/                        # Unit tests
