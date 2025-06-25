@@ -77,16 +77,15 @@ result = predict.segment_simultaneous(preprocessed_image)
 
 ```
 ├── 📁 src/                          # Core implementation
-│   ├── 📁 models/                   # pix2pix architecture
+│   ├── 📁 models/                   # pix2pix architecture, training, inferance, and evaluation
 │   ├── 📁 preprocessing/            # Data preprocessing pipeline
-│   ├── 📁 training/                 # Training scripts
-│   ├── 📁 inference/                # Prediction and evaluation
-│   └── 📁 utils/                    # Utility functions
+│   ├── 📁 prepration/               # Data preparation pipeline
 ├── 📁 baselines/                    # Comparison methods
 │   ├── 📁 SynthSeg/                 # SynthSeg implementation
 │   ├── 📁 BIANCA/                   # FSL BIANCA method
 │   ├── 📁 LST_methods/              # LST-LPA and LST-LGA
-│   └── 📁 Atlas_Matching/           # Template-based approach
+│   ├── 📁 Atlas_Matching/           # Template-based approach
+│   └── 📁 raw_data/                 # Sample raw data from the cohort
 ├── 📁 examples/                     # Tutorials and demos
 │   ├── 📄 quickstart_tutorial.ipynb
 │   └── 📄 baseline_comparison.ipynb
