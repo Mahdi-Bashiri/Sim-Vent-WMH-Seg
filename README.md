@@ -80,6 +80,7 @@ result = predict.segment_simultaneous(preprocessed_image)
 │   ├── 📁 models/                   # pix2pix architecture, training, inferance, and evaluation
 │   ├── 📁 preprocessing/            # Data preprocessing pipeline
 │   ├── 📁 prepration/               # Data preparation pipeline
+│   └── 📁 comparison/               # Analytical comparison analysis pipeline
 ├── 📁 baselines/                    # Comparison methods
 │   ├── 📁 SynthSeg/                 # SynthSeg implementation
 │   ├── 📁 BIANCA/                   # FSL BIANCA method
