@@ -168,7 +168,7 @@ Our approach uses a **conditional Generative Adversarial Network (cGAN)** based 
 ### Preprocessing Pipeline
 
 1. **Noise Reduction**: Median filter (3×3) + selective Gaussian filter (σ=1.0)
-2. **Brain Extraction**: Morphology-based approach with elliptical masking
+2. **Brain Extraction**: Utilizing BET FSL
 3. **Intensity Normalization**: Slice-based adaptive normalization
 4. **Paired-Image Generation**: 256×512 composite images for pix2pix input
 
