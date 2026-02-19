@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/25402861/README.md)
+[README.md](https://github.com/user-attachments/files/25402907/README.md)
 # Adversarial Deep Learning for Simultaneous Segmentation of Ventricular and White Matter Hyperintensities
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -28,9 +28,9 @@ This repository implements a novel **adversarial deep learning framework** based
 |--------|---------|------------|--------------|------------|
 | **Dice Coefficient** | 0.852 ± 0.004 | 0.907 ± 0.002 | 0.825 ± 0.009 | 0.677 ± 0.007 |
 | **HD95 (mm)** | 4.87 ± 0.13 | 3.00 ± 0.51 | 4.51 ± 0.32 | 4.87 ± 0.24 |
-| **Precision** | 0.856 ± 0.006 | 0.916 ± 0.005 | 0.849 ± 0.013 | - |
-| **Recall** | 0.850 ± 0.006 | 0.899 ± 0.007 | 0.804 ± 0.021 | - |
-| **IoU** | 0.760 ± 0.006 | - | - | - |
+| **Precision** | 0.856 ± 0.006 | 0.916 ± 0.005 | 0.849 ± 0.013 | 0.660 ± 0.019 |
+| **Recall** | 0.850 ± 0.006 | 0.899 ± 0.007 | 0.804 ± 0.021 | 0.696 ± 0.010 |
+| **IoU** | 0.760 ± 0.006 | 0.830 ± 0.004 | 0.703 ± 0.013 | 0.512 ± 0.008 |
 
 #### Normal vs. Abnormal WMH Classification
 | Metric | Value |
