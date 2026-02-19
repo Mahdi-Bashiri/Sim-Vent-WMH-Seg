@@ -111,17 +111,9 @@ model_path = "models/pix2pix_v5_combined/"
 
 ```
 ├── 📁 src/                          # Core implementation
-│   ├── 📁 models/                   # pix2pix architecture variants (V0-V5)
-│   │   ├── training.py              # Training scripts for all variants
-│   │   ├── inference.py             # Inference pipeline
-│   │   ├── evaluation.py            # Evaluation metrics
-│   │   └── architectures/           # Generator and discriminator definitions
+│   ├── 📁 models/                   # pix2pix architecture variants scripts (V0-V5)
 │   ├── 📁 preprocessing/            # Data preprocessing pipeline
-│   │   ├── noise_reduction.py       # Median + Gaussian filtering
-│   │   ├── brain_extraction.py      # FSL BET integration
-│   │   └── normalization.py         # Slice-based intensity normalization
 │   ├── 📁 preparation/              # Data preparation
-│   │   └── paired_image.py          # 256×512 composite generation
 │   └── 📁 comparison/               # Baseline comparison analysis
 ├── 📁 baselines/                    # Comparison methods
 │   ├── 📁 SynthSeg/                 # SynthSeg implementation
@@ -130,14 +122,12 @@ model_path = "models/pix2pix_v5_combined/"
 │   ├── 📁 Atlas_Matching/           # Template-based approach
 │   └── 📁 WMH-SynthSeg/             # WMH-SynthSeg extension
 ├── 📁 results/                      # Performance data and figures
-│   ├── 📁 ablation_study/           # V0-V5 comparison results
-│   ├── 📁 baseline_comparison/      # Results vs. 6 baselines
-│   ├── 📁 cross_validation/         # 5-fold CV analysis
-│   └── 📁 figures/                  # Manuscript figures
-├── 📁 models/                       # Pre-trained models
-│   └── 📁 v5_combined/              # Final V5 model weights
-├── 📁 docs/                         # Documentation
-└── 📁 tests/                        # Unit tests
+│   ├── 📁 model_performance/        # V0-V5 comparison results
+│   ├── 📁 training_epochs/          # sample slices during model training
+│   ├── 📁 inference_public/         # public test data on V5
+│   ├── 📁 inference_local/          # local test data on V5
+│   └── 📁 article_figures/          # Manuscript figures
+└── 📁 docs/                         # Documentation
 ```
 
 ---
