@@ -6,7 +6,7 @@
 [![TensorFlow 2.x](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://tensorflow.org/)
 [![Medical Imaging](https://img.shields.io/badge/domain-Medical%20Imaging-green.svg)](https://github.com/topics/medical-imaging)
 [![arXiv](https://img.shields.io/badge/arXiv-2506.07123-b31b1b.svg)](https://arxiv.org/abs/2506.07123)
-[![Models on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-md.svg)](https://huggingface.co/Bawil/neuro-ai/tree/main)
+[![Models on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-md.svg)](https://huggingface.co/Bawil/Sim-Vent-WMH-Seg/tree/main)
 
 ## 🧠 Overview
 
